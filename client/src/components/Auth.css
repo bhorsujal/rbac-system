@@ -1,0 +1,106 @@
+/* Auth Container */
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2e3b4e, #1f2532);
+    color: #ffffff;
+}
+
+/* Auth Card */
+.auth-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.auth-card h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    color: #f5d742;
+    margin-bottom: 20px;
+}
+
+.auth-input input,
+.auth-input select {
+    width: 100%;
+    /* Full width for the container */
+    max-width: 350px;
+    /* Limit maximum width for input */
+    padding: 10px;
+    /* Inner padding for comfort */
+    border-radius: 5px;
+    /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Subtle border */
+    background: #222a3f;
+    /* Dark background for inputs */
+    color: #ffffff;
+    /* White text */
+    font-size: 1rem;
+    /* Comfortable font size */
+    outline: none;
+    /* Remove default outline */
+}
+
+.auth-input input::placeholder {
+    color: #b0b0b0;
+    /* Light gray for placeholder text */
+}
+
+.auth-input select {
+    background: #222a3f;
+    /* Same dark background */
+    color: #ffffff;
+    /* White text */
+}
+
+.auth-input select option {
+    background: #1f2532;
+    /* Slightly darker option background */
+    color: #ffffff;
+    /* White text in options */
+}
+
+.auth-button {
+    width: 70%;
+    /* Smaller width for a sleeker look */
+    max-width: 200px;
+    /* Limit maximum width */
+    margin: 10px auto;
+    /* Center the button */
+    padding: 10px;
+    background: linear-gradient(90deg, #ff6584, #f5d742);
+    /* Vibrant gradient */
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #f5d742, #ff6584);
+    /* Reverse gradient */
+}
+
+.auth-switch {
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.auth-switch span {
+    color: #f5d742;
+    cursor: pointer;
+    font-weight: bold;
+}
