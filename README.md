@@ -45,16 +45,15 @@ This is a full-stack web application that demonstrates a robust Role-Based Acces
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/vrv-security-assignment.git
-   cd vrv-security-assignment
+   git clone https://github.com/bhorsujal/rbac-system.git
+   cd rbac-system
    ```
 
 2. **Backend Setup**
    ```bash
    cd backend
    python -m venv env
-   source env/bin/activate  # Unix/macOS
-   # env\Scripts\activate  # Windows
+   source env/bin/activate  # for Linux
    
    pip install -r requirements.txt
    python manage.py migrate
